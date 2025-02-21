@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    padding: 4rem;
+    font-family: sans-serif;
+}
+h1 > span{
+    color: red;
+}
+button{
+    background-color: teal;
+    font-size: 18px;
+    padding: 5px 10px;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+
+}
+button:hover{
+    background-color: darkslategrey;
+}
