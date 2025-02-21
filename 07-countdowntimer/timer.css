@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background-color: #2f2f2f;
+    font-family: sans-serif;
+    margin: 2rem;
+
+}
+h1{
+    color: white;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.2) ;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: whitesmoke;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+}
+.inputs input{
+    padding: .5rem;
+}
+.inputs button{
+    border: none;
+    padding: .5rem 1rem;
+    background-color: lightgrey;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputs button:hover{
+    background-color: white;
+}
+.timer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
