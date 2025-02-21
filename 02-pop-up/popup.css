@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(green ,blue);
+
+}
+button{
+    margin: 2rem;
+    background-color: rgb(255, 255, 0);
+    color:black;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3) ;
+    cursor: pointer;
+    transition:  .1s;
+
+}
+button:hover{
+    background-color: gold;
+}
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.modal_content{
+    background-color: whitesmoke;
+    padding: 4rem;
+    position: relative;
+    cursor: pointer;
+
+}
+.open
+{
+    display: flex;
+}
+
+
+
+
+
