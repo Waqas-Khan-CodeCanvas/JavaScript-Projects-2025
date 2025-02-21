@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* ########################### Light Mode ########################### */
+body {
+    background: #f6f7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background 0.3s ease-in-out;
+}
+
+
+/* ########################### Dark Mode ########################### */
+.dark-mode {
+    background: #18191a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+/* ########################### Clock Styling ########################### */
+.clock {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/* ########################### Dark Mode Clock ########################### */
+.dark-mode .clock {
+    background: #242526;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.114);
+}
+
+
+/* ########################### Image inside the clock ########################### */
+.clock-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('./waqas.JPG'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* ########################### Clock Numbers  ########################### */
+.clock label {
+    position: absolute;
+    inset: 15px;
+    text-align: center;
+    transform: rotate(calc(var(--i) * 30deg));
+}
+
+.clock label span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #18191a;
+    transform: rotate(calc(var(--i) * -30deg));
+}
+
+
+/* ########################### Dark Mode Clock Numbers  ########################### */
+.dark-mode .clock label span {
+    color: #0033ff;
+}
+
+
+/* ########################### Indicator (Center Dot)  ########################### */
+.indicator {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background: #e74c3c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicator::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: #18191a;
+    border: 3px solid #e74c3c;
+}
+
+
+/* ########################### Clock Hands ########################### */
+.hand {
+    position: absolute;
+    bottom: 0;
+    border-radius: 8px;
+    transform-origin: bottom;
+    transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+.hour {
+    height: 80px;
+    width: 6px;
+    background: #18191a;
+}
+
+.minute {
+    height: 110px;
+    width: 4px;
+    background: #18191a;
+}
+
+.second {
+    height: 130px;
+    width: 2px;
+    background: #0d00ff;
+}
+
+
+/* ########################### Dark Mode Hands  ########################### */
+.dark-mode .hour, 
+.dark-mode .minute {
+    background: #0033ff;
+}
+
+.dark-mode .second {
+    background: #ffe600;
+}
+
+
+/* ########################### Mode Switch Button  ########################### */
+.mode-switch {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background: #18191a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.mode-switch:hover {
+    background: #000dff;
+}
+
+
+/* ###########################  Dark Mode Button ########################### */
+.dark-mode .mode-switch {
+    background: #f6f7fb;
+    color: #18191a;
+}
+
+.dark-mode .mode-switch:hover {
+    background: #ffdd00;
+}
