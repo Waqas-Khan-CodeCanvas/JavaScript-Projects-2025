@@ -23,11 +23,11 @@ A stylish **analog clock** built using **HTML, CSS, and JavaScript**, featuring 
 ## 🔧 Installation & Usage
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https:https://github.com/Waqas-Khan-CodeCanvas/JavaScript-Projects-2025/edit/main/05-Analog-Clock
    ```
 2. **Navigate to the Project Folder**
    ```sh
-   cd repository-name
+   05-Analog-Clock
    ```
 3. **Open `index.html` in Your Browser**
 
