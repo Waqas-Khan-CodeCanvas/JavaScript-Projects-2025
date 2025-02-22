@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    color: rgb(17, 250, 0);
+}
+details{
+    width: 40%;
+    cursor: pointer;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: yellow;
+    font-size: 19px;
+    font-weight: bold;
+    border: 2px solid red;
+    box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.2);
+
+}
+summary{
+    color: blue;
+}
