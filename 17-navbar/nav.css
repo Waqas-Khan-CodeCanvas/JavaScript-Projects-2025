@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: #e6e6e6;
+    position: relative;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #a0a0a0;
+}
+.logo-box .logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.menu-box{
+    transform: translateX(70%);
+}
+.menu{
+   list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-box {
+    position: absolute;
+    right: 0;
+}
+.login-box .login{
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-box .check{
+    /* margin-right: 10px; */
+    width: 20px;
+    height: 15px;
+}
+.login-box .search{
+    position: relative;
+    display: inline-block;
+
+}
+.login-box .search input{
+    position: relative;
+    height: 29px;
+    max-width: 30px;
+    width: 100%;
+    padding: 0 10px ;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s;
+}
+.search.open input{
+    max-width: 214px;
+    padding: 0 10px 0 30px;
+
+}
+.search-Icon{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    transform: translateY(-50%);
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.close-Icon{
+    opacity: 0;
+    pointer-events: none;
+}
+.search.open .close-Icon{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* here section after navbar start from here */
+
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 246px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text .animate-text{
+    color: rgb(0, 17, 255);
+    position: relative;
+}
+.animate-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e6e6e6;
+    border-left: 2px solid red;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
