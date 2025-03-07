@@ -1,5 +1,5 @@
 # 🚀 Custom Toast Notification
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3135fe98-2c56-4cfe-9b71-59173de04b14/deploy-status)](https://app.netlify.com/sites/toast-notifier/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3135fe98-2c56-4cfe-9b71-59173de04b14/deploy-status)](https://app.netlify.com/sites/toast-notifier/deploys) <br>
 A sleek and responsive **Toast Notification System** built using **HTML, CSS, and JavaScript**. This project provides instant feedback to users with smooth animations, auto-dismiss functionality, and a clean UI.
 
 ## 🚀 Live Demo  
