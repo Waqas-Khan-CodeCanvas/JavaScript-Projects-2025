@@ -1,9 +1,9 @@
 # 🚀 Custom Toast Notification
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3135fe98-2c56-4cfe-9b71-59173de04b14/deploy-status)](https://app.netlify.com/sites/toast-notifier/deploys)
 A sleek and responsive **Toast Notification System** built using **HTML, CSS, and JavaScript**. This project provides instant feedback to users with smooth animations, auto-dismiss functionality, and a clean UI.
 
 ## 🚀 Live Demo  
-🔗 [Live Demo](#) *(Replace with your link)*  
+🔗 [Live Demo](https://toast-notifier.netlify.app/)
 
 ## 📌 Features  
 ✅ Modern and minimal UI  
@@ -18,13 +18,16 @@ A sleek and responsive **Toast Notification System** built using **HTML, CSS, an
 │── 📜 index.html      # Main HTML file  
 │── 📜 style.css       # Styling for the notification  
 │── 📜 script.js       # JavaScript functionality  
+│── 📜 screenShort.png # project image   
+│── 📜 Video.mp4       # project video 
+│── 📜 READMD.md       # description file 
 ```
 
 ## ⚡ How to Use  
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-username/custom-toast-notification.git
+   git clone https://github.com/Waqas-Khan-CodeCanvas/toast-notification.git
    ```
 2. **Open `index.html` in a browser**  
 3. Click the **"Show Toast"** button to see the notification in action  
