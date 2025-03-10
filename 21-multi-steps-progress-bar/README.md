@@ -2,7 +2,8 @@
 
 A sleek and interactive **Step Progress Bar** built using **HTML, CSS, and JavaScript**. This project visually represents progress through multiple steps, making it ideal for **multi-step forms, onboarding processes, and guided user journeys**.
 
-![Step Progress Bar](./Screenshot.png)
+![Step Progress Bar](./Scre![Screenshot (921)](https://github.com/user-attachments/assets/65b1b384-71d3-4e6e-ab7f-2c732356a2d0)
+enshot.png)
 
 ## 🔥 Features
 
@@ -13,7 +14,7 @@ A sleek and interactive **Step Progress Bar** built using **HTML, CSS, and JavaS
 
 ## 📌 Demo
 
-👉 **[Live Preview](#)** (Add your deployed link here)
+👉 **[Live Preview](https://multistepprogressbar.netlify.app/)
 
 ## 🛠️ Technologies Used
 
@@ -43,7 +44,7 @@ A sleek and interactive **Step Progress Bar** built using **HTML, CSS, and JavaS
 1️⃣ Clone the repository  
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Waqas-Khan-CodeCanvas/JavaScript-Projects-2025.git
 ```
 
 2️⃣ Open the **index.html** file in your browser  
@@ -58,4 +59,4 @@ If you like this project, don't forget to:
 🔄 **Fork it** and contribute  
 👥 **Follow me on GitHub** for more projects  
 
-📌 **GitHub Profile:** [Your GitHub Link Here]
+📌 **GitHub Profile:** [Waqas khan](https://github.com/Waqas-Khan-CodeCanvas)
