@@ -1,5 +1,5 @@
-# 🚀 Step Progress Bar
-
+# 🚀 Step Progress Bar<br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71e33e43-fd5d-4b30-b553-fae2ad5b47a8/deploy-status)](https://app.netlify.com/sites/multistepprogressbar/deploys) <br>
 A sleek and interactive **Step Progress Bar** built using **HTML, CSS, and JavaScript**. This project visually represents progress through multiple steps, making it ideal for **multi-step forms, onboarding processes, and guided user journeys**.
 
 ![Step Progress Bar](./Scre![Screenshot (921)](https://github.com/user-attachments/assets/65b1b384-71d3-4e6e-ab7f-2c732356a2d0)
